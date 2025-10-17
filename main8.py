@@ -7,7 +7,7 @@ if 0 <= yosh <= 120 :
         if ny == 0 :
             print(f"Bobo siz nafaqa chiqgansiz . \nNafaqaga shu yili chiqgansiz")
         else:
-            print(f"Bobo siz nafaqa yoshidasiz . \nNafaqaga chgiqganingizga {ny} yil bo'ldi")
+            print(f"Bobo siz nafaqa yoshidasiz . \nNafaqaga chiqganingizga {ny} yil bo'ldi")
     elif jns == "erkak" and yosh < 60 :
         nafaqa_yosh_erkak = 60 - yosh
         print(f"Hurmatli foydalanuvchi siz hali nafaqaga chiqmagansiz . \nNafaqaga chiqishingizga {nafaqa_yosh_erkak} yil bor .")
@@ -23,4 +23,5 @@ if 0 <= yosh <= 120 :
     else:
         print("Hurmatli foydalanuvchi siz jinsingizni to'g'ri kiritishingiz kerak")
 else:
+
     print("Yoshingizni to'g'ri kiriting ! ")
