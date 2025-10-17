@@ -1,0 +1,1 @@
+# nafaqa-yoshini-aniqlash-dasturi
