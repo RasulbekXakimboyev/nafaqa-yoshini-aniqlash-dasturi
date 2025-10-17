@@ -11,11 +11,11 @@ if 0 <= yosh <= 120 :
     elif jns == "erkak" and yosh < 60 :
         nafaqa_yosh_erkak = 60 - yosh
         print(f"Hurmatli foydalanuvchi siz hali nafaqaga chiqmagansiz . \nNafaqaga chiqishingizga {nafaqa_yosh_erkak} yil bor .")
-    elif jns == "ayol" and yosh < 60 :
-        nafaqa_yosh_ayol = yosh - 60
+    elif jns == "ayol" and yosh < 55 :
+        nafaqa_yosh_ayol = yosh - 55
         print(f"Hurmatli foydalanuvchi siz hali nafaqaga chiqmagansiz . \nNafaqaga chiqishingizga {nafaqa_yosh_ayol} yil bor .")
-    elif jns == "ayol" and yosh >= 60 :
-        nafaqa_yoshiga_yetgan = yosh - 60
+    elif jns == "ayol" and yosh >= 55 :
+        nafaqa_yoshiga_yetgan = yosh - 55
         if nafaqa_yoshiga_yetgan == 0 :
             print(f"Buvi siz nafaqa yoshidasiz . \nNafaqaga yaqinda chiqdingiz")
         else:
@@ -25,3 +25,4 @@ if 0 <= yosh <= 120 :
 else:
 
     print("Yoshingizni to'g'ri kiriting ! ")
+
